@@ -68,6 +68,21 @@ class DataViewController: UIViewController {
                         "time": strTime]
     
         customerInfo.child(key!).setValue(customer)
+        
+        // reset fields -RY and give popup message that info has been updated
+        
+        // create the alert
+        let alert = UIAlertController(title: "Equipment Form", message: "Information has been updated.", preferredStyle: UIAlertController.Style.alert)
+        
+        // add an action (button)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        
+        // show the alert
+        self.present(alert, animated: true, completion: nil)
+        // clear fields for another entry
+        CustomerName.text = ""
+        CustomerAddress.text = ""
+        DeliveryStatus.text = ""
     }
     
     
