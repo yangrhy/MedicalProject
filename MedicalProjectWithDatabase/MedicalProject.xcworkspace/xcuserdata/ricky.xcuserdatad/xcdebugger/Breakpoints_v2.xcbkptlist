@@ -6,11 +6,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MedicalProject/DataViewController.swift"
+<<<<<<< HEAD
             timestampString = "571239331.732165"
+=======
+            timestampString = "571186389.281575"
+>>>>>>> parent of e781c0d... Added popup message
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
@@ -19,7 +23,7 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MedicalProject.DataViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MedicalProject.DataViewController"
@@ -34,7 +38,7 @@
                   offsetFromSymbolStart = "469">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "MedicalProject.DataViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MedicalProject.DataViewController&gt;"
@@ -51,6 +55,7 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+<<<<<<< HEAD
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
@@ -67,5 +72,7 @@
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
+=======
+>>>>>>> parent of e781c0d... Added popup message
    </Breakpoints>
 </Bucket>
