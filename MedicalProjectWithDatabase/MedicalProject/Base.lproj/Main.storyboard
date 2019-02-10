@@ -14,8 +14,8 @@
             <objects>
                 <viewController storyboardIdentifier="Login" id="pHr-FP-01c" customClass="LoginViewController" customModule="MedicalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="aFM-hA-wFE"/>
-                        <viewControllerLayoutGuide type="bottom" id="cWV-nO-x9f"/>
+                        <viewControllerLayoutGuide type="top" id="77H-pQ-dCR"/>
+                        <viewControllerLayoutGuide type="bottom" id="cmp-uy-Edq"/>
                     </layoutGuides>
                     <view key="view" contentMode="center" id="Zg2-bL-PRd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -87,14 +87,14 @@
                             <constraint firstItem="cTM-6G-or4" firstAttribute="top" secondItem="Hf1-on-poq" secondAttribute="bottom" constant="6" id="2RF-fj-D33"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sWX-1N-KFc" secondAttribute="trailing" constant="71" id="7eX-Ow-xOe"/>
                             <constraint firstItem="cTM-6G-or4" firstAttribute="leading" secondItem="Zg2-bL-PRd" secondAttribute="leadingMargin" constant="117.5" id="9KL-vh-764"/>
-                            <constraint firstItem="jLr-1y-lvg" firstAttribute="top" secondItem="aFM-hA-wFE" secondAttribute="bottom" constant="184.5" id="Do7-UX-qAx"/>
+                            <constraint firstItem="jLr-1y-lvg" firstAttribute="top" secondItem="77H-pQ-dCR" secondAttribute="bottom" constant="184.5" id="Do7-UX-qAx"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Hf1-on-poq" secondAttribute="trailing" constant="144.5" id="EbV-Ck-fIK"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rbi-vz-ndh" secondAttribute="trailing" constant="149" id="MQm-BS-3cR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="cTM-6G-or4" secondAttribute="trailing" constant="116.5" id="NRO-Cp-5Qa"/>
                             <constraint firstItem="0iC-Yr-4x0" firstAttribute="top" secondItem="jLr-1y-lvg" secondAttribute="bottom" constant="19" id="P0K-v3-Qml"/>
                             <constraint firstAttribute="trailingMargin" secondItem="0iC-Yr-4x0" secondAttribute="trailing" constant="71" id="Q6i-IT-WqZ"/>
                             <constraint firstItem="Hf1-on-poq" firstAttribute="leading" secondItem="Zg2-bL-PRd" secondAttribute="leadingMargin" constant="144.5" id="VIQ-T8-CoR"/>
-                            <constraint firstItem="cWV-nO-x9f" firstAttribute="top" secondItem="cTM-6G-or4" secondAttribute="bottom" constant="6" id="eMe-dD-Abb"/>
+                            <constraint firstItem="cmp-uy-Edq" firstAttribute="top" secondItem="cTM-6G-or4" secondAttribute="bottom" constant="6" id="eMe-dD-Abb"/>
                             <constraint firstItem="0iC-Yr-4x0" firstAttribute="leading" secondItem="Zg2-bL-PRd" secondAttribute="leadingMargin" constant="71" id="h17-wG-Ltw"/>
                             <constraint firstItem="jLr-1y-lvg" firstAttribute="leading" secondItem="Zg2-bL-PRd" secondAttribute="leadingMargin" constant="103" id="h5g-TU-Kqk"/>
                             <constraint firstItem="sWX-1N-KFc" firstAttribute="top" secondItem="0iC-Yr-4x0" secondAttribute="bottom" constant="8" id="kQB-cn-155"/>
@@ -118,8 +118,8 @@
             <objects>
                 <viewController storyboardIdentifier="SignUp" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eaE-HM-yhK" customClass="SignUpViewController" customModule="MedicalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="C4G-sn-WIg"/>
-                        <viewControllerLayoutGuide type="bottom" id="Fnw-1K-dnU"/>
+                        <viewControllerLayoutGuide type="top" id="nRU-G0-uKb"/>
+                        <viewControllerLayoutGuide type="bottom" id="W0l-mh-XxH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Y1y-V3-dml">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -193,11 +193,11 @@
                             <constraint firstItem="Aba-Jm-dsV" firstAttribute="leading" secondItem="Y1y-V3-dml" secondAttribute="leadingMargin" constant="139.5" id="A3d-T6-bQQ"/>
                             <constraint firstItem="yHr-LF-TVW" firstAttribute="leading" secondItem="Y1y-V3-dml" secondAttribute="leadingMargin" constant="117" id="C1L-vB-ojW"/>
                             <constraint firstItem="ZQO-ii-IBg" firstAttribute="leading" secondItem="Y1y-V3-dml" secondAttribute="leadingMargin" constant="152.5" id="Hpn-IS-7C9"/>
-                            <constraint firstItem="ghp-pE-zr1" firstAttribute="top" secondItem="C4G-sn-WIg" secondAttribute="bottom" constant="184.5" id="NaR-Z6-nrY"/>
+                            <constraint firstItem="ghp-pE-zr1" firstAttribute="top" secondItem="nRU-G0-uKb" secondAttribute="bottom" constant="184.5" id="NaR-Z6-nrY"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yHr-LF-TVW" secondAttribute="trailing" constant="117" id="OKw-gk-eTX"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ghp-pE-zr1" secondAttribute="trailing" constant="101.5" id="R8O-py-zRf"/>
                             <constraint firstItem="gDl-65-jdF" firstAttribute="top" secondItem="Mzg-Nq-DOO" secondAttribute="bottom" constant="8" id="YBo-TH-KSs"/>
-                            <constraint firstItem="Fnw-1K-dnU" firstAttribute="top" secondItem="yHr-LF-TVW" secondAttribute="bottom" constant="6" id="YSN-Nz-uEV"/>
+                            <constraint firstItem="W0l-mh-XxH" firstAttribute="top" secondItem="yHr-LF-TVW" secondAttribute="bottom" constant="6" id="YSN-Nz-uEV"/>
                             <constraint firstItem="yHr-LF-TVW" firstAttribute="top" secondItem="ZQO-ii-IBg" secondAttribute="bottom" constant="6" id="cKn-BA-j5g"/>
                             <constraint firstItem="gDl-65-jdF" firstAttribute="leading" secondItem="Y1y-V3-dml" secondAttribute="leadingMargin" constant="71" id="f6B-Al-gjy"/>
                             <constraint firstItem="Mzg-Nq-DOO" firstAttribute="top" secondItem="ghp-pE-zr1" secondAttribute="bottom" constant="19" id="gJC-al-MLE"/>
@@ -220,8 +220,8 @@
             <objects>
                 <viewController id="bAG-8A-jcZ" customClass="ResetPasswordViewController" customModule="MedicalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="34Y-we-5HT"/>
-                        <viewControllerLayoutGuide type="bottom" id="Xvs-kn-UFu"/>
+                        <viewControllerLayoutGuide type="top" id="p9c-mj-Lcg"/>
+                        <viewControllerLayoutGuide type="bottom" id="XfD-zD-Guu"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aan-kp-ee1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -284,8 +284,8 @@
                             <constraint firstItem="Gdf-9o-97X" firstAttribute="leading" secondItem="aan-kp-ee1" secondAttribute="leadingMargin" constant="71" id="HO0-Mj-7lq"/>
                             <constraint firstItem="Tio-nE-AiR" firstAttribute="leading" secondItem="aan-kp-ee1" secondAttribute="leadingMargin" constant="152.5" id="QgY-QN-sta"/>
                             <constraint firstItem="9rO-b6-yTm" firstAttribute="leading" secondItem="aan-kp-ee1" secondAttribute="leadingMargin" constant="36" id="TD8-uB-zSf"/>
-                            <constraint firstItem="9rO-b6-yTm" firstAttribute="top" secondItem="34Y-we-5HT" secondAttribute="bottom" constant="184.5" id="dpI-vZ-vyf"/>
-                            <constraint firstItem="Xvs-kn-UFu" firstAttribute="top" secondItem="F45-n3-r3E" secondAttribute="bottom" constant="6" id="fvB-jR-BYH"/>
+                            <constraint firstItem="9rO-b6-yTm" firstAttribute="top" secondItem="p9c-mj-Lcg" secondAttribute="bottom" constant="184.5" id="dpI-vZ-vyf"/>
+                            <constraint firstItem="XfD-zD-Guu" firstAttribute="top" secondItem="F45-n3-r3E" secondAttribute="bottom" constant="6" id="fvB-jR-BYH"/>
                             <constraint firstItem="Gdf-9o-97X" firstAttribute="top" secondItem="9rO-b6-yTm" secondAttribute="bottom" constant="19" id="lwH-N8-yew"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9rO-b6-yTm" secondAttribute="trailing" constant="36" id="o7V-C7-60H"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Tio-nE-AiR" secondAttribute="trailing" constant="152.5" id="pCw-UZ-6Rz"/>
@@ -325,8 +325,8 @@
             <objects>
                 <viewController title="Equipment Form" id="uI1-gG-5tE" customClass="DataViewController" customModule="MedicalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xg1-vg-1qE"/>
-                        <viewControllerLayoutGuide type="bottom" id="UNm-fa-RZ7"/>
+                        <viewControllerLayoutGuide type="top" id="Xxa-Oe-t2O"/>
+                        <viewControllerLayoutGuide type="bottom" id="mDY-r8-Edj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ooE-WZ-1GB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
@@ -411,8 +411,8 @@
             <objects>
                 <viewController storyboardIdentifier="Home" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hxY-Ju-URQ" customClass="HomeViewController" customModule="MedicalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="WMD-hg-ojZ"/>
-                        <viewControllerLayoutGuide type="bottom" id="hFW-hz-7s3"/>
+                        <viewControllerLayoutGuide type="top" id="Yl5-yO-tMf"/>
+                        <viewControllerLayoutGuide type="bottom" id="7My-d1-1Co"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="cwV-mJ-Kxh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -458,7 +458,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Customer Information"/>
                                 <connections>
-                                    <segue destination="ILJ-dS-ms3" kind="show" id="Efj-p9-wKG"/>
+                                    <segue destination="ILJ-dS-ms3" kind="show" id="2H3-ol-KOB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -470,31 +470,105 @@
             </objects>
             <point key="canvasLocation" x="1756" y="1034.9325337331336"/>
         </scene>
-        <!--Database-->
+        <!--Customer Info-->
         <scene sceneID="c6z-LV-JhB">
             <objects>
-                <viewController title="Database" id="ILJ-dS-ms3" sceneMemberID="viewController">
+                <viewController title="Database" id="ILJ-dS-ms3" userLabel="Customer Info" customClass="CustomerInfoViewController" customModule="MedicalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="kak-l4-M9t"/>
-                        <viewControllerLayoutGuide type="bottom" id="Z9U-Xx-pSD"/>
+                        <viewControllerLayoutGuide type="top" id="k0F-lC-NWE"/>
+                        <viewControllerLayoutGuide type="bottom" id="A47-AT-QhR"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="cAY-MK-JEl">
+                    <view key="view" contentMode="scaleToFill" id="cAY-MK-JEl" customClass="CustomerTableViewCell" customModule="MedicalProject" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdq-wV-rD8">
+                                <rect key="frame" x="104" y="86" width="167" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fWf-4o-Hpe">
+                                <rect key="frame" x="0.0" y="115" width="375" height="552"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="218" id="MoH-Is-aUw" customClass="CustomerTableViewCell" customModule="MedicalProject" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="218"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MoH-Is-aUw" id="1CW-nQ-YE8">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="217.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nXe-xP-cp9">
+                                                    <rect key="frame" x="15" y="12" width="345" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8I9-8l-rKN">
+                                                    <rect key="frame" x="15" y="50" width="345" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxg-Cf-i5Z">
+                                                    <rect key="frame" x="15" y="91" width="345" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MAj-Vq-W0M">
+                                                    <rect key="frame" x="15" y="130" width="345" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="coZ-uE-3Mb">
+                                                    <rect key="frame" x="15" y="172" width="345" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="lblCustAddress" destination="8I9-8l-rKN" id="Q3W-xi-Y9e"/>
+                                            <outlet property="lblCustName" destination="nXe-xP-cp9" id="0K7-cG-s30"/>
+                                            <outlet property="lblDelivDate" destination="cxg-Cf-i5Z" id="urU-Ow-WvU"/>
+                                            <outlet property="lblDelivStatus" destination="coZ-uE-3Mb" id="DzK-K9-4ml"/>
+                                            <outlet property="lblDelivTime" destination="MAj-Vq-W0M" id="8g6-5q-7KC"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fdq-wV-rD8" firstAttribute="centerX" secondItem="cAY-MK-JEl" secondAttribute="centerX" id="JOa-uc-rUg"/>
+                            <constraint firstItem="fdq-wV-rD8" firstAttribute="top" secondItem="k0F-lC-NWE" secondAttribute="bottom" constant="22" id="ynI-lD-KT6"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="fWf-4o-Hpe" id="dNE-va-3eA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3ou-Vy-j2t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3290" y="1775"/>
+            <point key="canvasLocation" x="3317.5999999999999" y="1716.7916041979013"/>
         </scene>
         <!--Calendar-->
         <scene sceneID="YbI-cf-sy6">
             <objects>
                 <viewController title="Calendar" id="n2U-VS-69b" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="FIY-NS-zoi"/>
-                        <viewControllerLayoutGuide type="bottom" id="nep-Kc-LkA"/>
+                        <viewControllerLayoutGuide type="top" id="rtD-Bf-TKz"/>
+                        <viewControllerLayoutGuide type="bottom" id="3FP-V2-xLC"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4wY-hi-pns">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -511,8 +585,8 @@
             <objects>
                 <viewController title="Maps" id="xSH-S8-2lA" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="tS0-YO-2DV"/>
-                        <viewControllerLayoutGuide type="bottom" id="CtA-7Z-8Xx"/>
+                        <viewControllerLayoutGuide type="top" id="dj5-Li-wNy"/>
+                        <viewControllerLayoutGuide type="bottom" id="mDX-9B-Bao"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="s7l-Hl-CsX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
