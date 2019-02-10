@@ -555,7 +555,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tableView" destination="fWf-4o-Hpe" id="dNE-va-3eA"/>
+                        <outlet property="customerTableView" destination="fWf-4o-Hpe" id="dNE-va-3eA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3ou-Vy-j2t" userLabel="First Responder" sceneMemberID="firstResponder"/>

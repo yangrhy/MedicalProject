@@ -13,7 +13,7 @@ class CustomerInfoViewController: UIViewController, UITableViewDelegate, UITable
     var customerInfo: DatabaseReference!
     var customerList = [Customers]()
 
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var customerTableView: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return customerList.count
@@ -39,9 +39,8 @@ class CustomerInfoViewController: UIViewController, UITableViewDelegate, UITable
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
         customerInfo = Database.database().reference().child("customer")
-        
+        // CUSTOMER OBJECTS ARE NOT BEING ADDED!!
         customerInfo?.observeSingleEvent(of: .value) { (snapshot:DataSnapshot) in
             for customers in snapshot.children.allObjects as![DataSnapshot] {
                 let custObj = customers.value as? [String: AnyObject]
@@ -55,9 +54,15 @@ class CustomerInfoViewController: UIViewController, UITableViewDelegate, UITable
                 
                 self.customerList.append(customer)
             }
+            self.customerTableView?.reloadData()
         }
+
+        let alert = UIAlertController(title: "Customer Information", message: "Number of customer objects:\(customerList.count)", preferredStyle: UIAlertController.Style.alert)
         
-        
+        // add an action (button)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+
     }
     
 
