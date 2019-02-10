@@ -22,6 +22,4 @@ class Customers{
         self.time = time;
         self.delivStat = delivStat;
     }
-    
-    
 }

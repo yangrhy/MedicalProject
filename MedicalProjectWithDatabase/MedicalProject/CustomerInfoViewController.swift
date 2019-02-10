@@ -25,11 +25,14 @@ class CustomerInfoViewController: UIViewController, UITableViewDelegate, UITable
         let eachCustomer:Customers
         eachCustomer = customerList[indexPath.row]
         
-        cell.lblCustName.text = eachCustomer.custName
-        cell.lblCustAddress.text = eachCustomer.custAddy
+        let customerInfoString: String?
+        
+        customerInfoString = eachCustomer.custName! + eachCustomer.custAddy! + eachCustomer.deliv! + eachCustomer.time! + eachCustomer.delivStat!
+        cell.textLabel?.text = customerInfoString
+        /*cell.lblCustAddress.text = eachCustomer.custAddy
         cell.lblDelivDate.text = eachCustomer.deliv
         cell.lblDelivTime.text = eachCustomer.time
-        cell.lblDelivStatus.text = eachCustomer.delivStat
+        cell.lblDelivStatus.text = eachCustomer.delivStat */
         
         return cell
     }
@@ -37,32 +40,33 @@ class CustomerInfoViewController: UIViewController, UITableViewDelegate, UITable
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        customerTableView.delegate = self
+        customerTableView.dataSource = self
         // Do any additional setup after loading the view.
         customerInfo = Database.database().reference().child("customer")
-        // CUSTOMER OBJECTS ARE NOT BEING ADDED!!
+        
+        // ***CUSTOMER OBJECTS ARE NOT BEING ADDED!!*****
+        
+        
         customerInfo?.observeSingleEvent(of: .value) { (snapshot:DataSnapshot) in
-            for customers in snapshot.children.allObjects as![DataSnapshot] {
+            for customers in snapshot.children.allObjects as! [DataSnapshot] {
                 let custObj = customers.value as? [String: AnyObject]
                 let custName = custObj?["customerName"]
                 let custAddress = custObj?["customerAddress"]
                 let delivDate = custObj?["date"]
                 let delivTime = custObj?["time"]
                 let delivStatus = custObj?["deliveryStatus"]
+                // Retrieving Data from Firebase IS WORKING!
+                
                 
                 let customer = Customers(custName: custName as! String?, custAddy: custAddress as! String?, deliv: delivDate as! String?, time: delivTime as! String?, delivStat: delivStatus as! String?)
                 
+                // CREATING CUSTOMER LIST IS ALSO WORKING
+                // ISSUE Lies somewhere else, perhaps loading the data into the tableview???
                 self.customerList.append(customer)
             }
             self.customerTableView?.reloadData()
         }
-
-        let alert = UIAlertController(title: "Customer Information", message: "Number of customer objects:\(customerList.count)", preferredStyle: UIAlertController.Style.alert)
-        
-        // add an action (button)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-        self.present(alert, animated: true, completion: nil)
-
     }
     
 
