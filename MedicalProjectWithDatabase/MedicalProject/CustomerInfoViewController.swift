@@ -22,12 +22,16 @@ class CustomerInfoViewController: UIViewController, UITableViewDelegate, UITable
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomerTableViewCell
         
+        cell.textLabel?.numberOfLines = 0
+        cell.textLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping;
+
         let eachCustomer:Customers
         eachCustomer = customerList[indexPath.row]
         
         let customerInfoString: String?
         
-        customerInfoString = eachCustomer.custName! + eachCustomer.custAddy! + eachCustomer.deliv! + eachCustomer.time! + eachCustomer.delivStat!
+        customerInfoString = "Customer Name: \(eachCustomer.custName!)\nCustomer Address: \(eachCustomer.custAddy)\nDelivery Date: \(eachCustomer.deliv)\nDelivery Time: \(eachCustomer.time)\nDelivery Status: \(eachCustomer.delivStat)"
+        
         cell.textLabel?.text = customerInfoString
         /*cell.lblCustAddress.text = eachCustomer.custAddy
         cell.lblDelivDate.text = eachCustomer.deliv
@@ -45,8 +49,6 @@ class CustomerInfoViewController: UIViewController, UITableViewDelegate, UITable
         // Do any additional setup after loading the view.
         customerInfo = Database.database().reference().child("customer")
         
-        // ***CUSTOMER OBJECTS ARE NOT BEING ADDED!!*****
-        
         
         customerInfo?.observeSingleEvent(of: .value) { (snapshot:DataSnapshot) in
             for customers in snapshot.children.allObjects as! [DataSnapshot] {
@@ -61,8 +63,6 @@ class CustomerInfoViewController: UIViewController, UITableViewDelegate, UITable
                 
                 let customer = Customers(custName: custName as! String?, custAddy: custAddress as! String?, deliv: delivDate as! String?, time: delivTime as! String?, delivStat: delivStatus as! String?)
                 
-                // CREATING CUSTOMER LIST IS ALSO WORKING
-                // ISSUE Lies somewhere else, perhaps loading the data into the tableview???
                 self.customerList.append(customer)
             }
             self.customerTableView?.reloadData()
