@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/ricky/Desktop/iOS Apps/MedicalProject/MedicalProjectWithDatabase/MedicalProject/Customers.swift">
+   </FileRef>
+   <FileRef
       location = "group:MedicalProject.xcodeproj">
    </FileRef>
    <FileRef
