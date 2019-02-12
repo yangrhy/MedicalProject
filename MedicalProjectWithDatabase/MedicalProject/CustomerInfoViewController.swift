@@ -30,7 +30,7 @@ class CustomerInfoViewController: UIViewController, UITableViewDelegate, UITable
         
         let customerInfoString: String?
         
-        customerInfoString = "Customer Name: \(eachCustomer.custName!)\nCustomer Address: \(eachCustomer.custAddy)\nDelivery Date: \(eachCustomer.deliv)\nDelivery Time: \(eachCustomer.time)\nDelivery Status: \(eachCustomer.delivStat)"
+        customerInfoString = "Customer Name: \(eachCustomer.custName!)\nCustomer Address: \(eachCustomer.custAddy!)\nDelivery Date: \(eachCustomer.deliv!)\nDelivery Time: \(eachCustomer.time!)\nDelivery Status: \(eachCustomer.delivStat!)"
         
         cell.textLabel?.text = customerInfoString
         /*cell.lblCustAddress.text = eachCustomer.custAddy
